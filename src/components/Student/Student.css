@@ -1,0 +1,14 @@
+.student-details {
+    height: 200px;
+    width: 500px;
+    border: 2px solid rgb(240, 204, 187);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.student-img img {
+    height: 200px;
+}
