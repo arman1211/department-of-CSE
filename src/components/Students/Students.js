@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Student from '../Student/Student';
+import './Students.css';
 
 const Students = () => {
     const [students, setStudents] = useState([]);
@@ -10,7 +11,7 @@ const Students = () => {
     }, [])
 
     return (
-        <div>
+        <div className='students-container'>
             {
 
                 students.map(student => <Student student={student}></Student>)
