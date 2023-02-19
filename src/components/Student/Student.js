@@ -10,7 +10,7 @@ const Student = (props) => {
 
             </div>
             <div className="student-description">
-                <h3>Name: {name}</h3>
+                <h3>{name}</h3>
                 <p>Email: {email}</p>
                 <p><small>Address: {address}</small></p>
 
