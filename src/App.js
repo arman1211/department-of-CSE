@@ -5,6 +5,7 @@ import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import Profile from './components/Profile/Profile';
 import Projects from './components/Projects/Projects';
+import Register from './components/Register/Register';
 import Syllebus from './components/Syllebus/Syllebus';
 import Main from './layout/Main';
 
@@ -34,6 +35,10 @@ function App() {
         {
           path:"/login",
           element:<Login></Login>
+        },
+        {
+          path:"/register",
+          element:<Register></Register>
         }
 
       ])
@@ -42,7 +47,7 @@ function App() {
     },
     {
       path: "*",
-      element:<p>This page is not available. Please go to Home page<Link to ='/'>Home</Link></p>
+      element:<p>This page is not available. Please go to Home page<Link to ='/'>  Home</Link></p>
     }
     
   ])
