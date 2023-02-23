@@ -41,5 +41,11 @@
     border: 0px;
     border-radius: 5px;
     cursor: pointer;
+    transition: width 2s, height 2s, transform 2s;
    
 }
+.google:hover {
+    width: 60px;
+    height: 70px;
+    transform: rotate(360deg);
+  }

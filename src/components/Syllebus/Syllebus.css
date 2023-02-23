@@ -1,0 +1,23 @@
+.syllebus-container {
+    display: grid;
+    margin: 20px;
+    grid-template-columns: repeat(2, 2fr);
+    padding: 20px
+}
+.syllebus-container img{
+    height: 450px;
+    width: 380px; 
+}
+
+.syllebus{
+    width: 400px;
+    height: 500px;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    box-shadow: 5px 10px rgb(222, 216, 228);
+    border-radius: 10px;
+}
+.footer{
+    text-align: center;
+    margin-top: 30%;
+}
