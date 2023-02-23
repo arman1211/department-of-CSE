@@ -1,15 +1,45 @@
 .student-details {
-    height: 200px;
-    width: 450px;
-    border: 2px solid rgb(240, 204, 187);
-    margin: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    height: 250px;
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px 3px rgba(0, 0, 0, 0.3);
+    margin: 5px;
     padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+
 }
 
 .student-img img {
-    height: 200px;
-    width: auto;
+    height: 230px;
+    width: 200px;
+    border: 1px transparent;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.student-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+p {
+    font-size: 14px;
+    color: gray;
+}
+
+.button-section button {
+    margin-bottom: 5px;
+
+
+
 }

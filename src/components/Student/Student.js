@@ -10,9 +10,17 @@ const Student = (props) => {
 
             </div>
             <div className="student-description">
-                <h3> {name}</h3>
-                <p>Email: {email}</p>
+
+
+                <h5> {name}</h5>
+                <p className='email'>Email: {email}</p>
                 <p><small>Address: {address}</small></p>
+
+
+
+                <div className="button-section">
+                    <button className='btn btn-success'>View Profile</button>
+                </div>
 
 
             </div>

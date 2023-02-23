@@ -32,7 +32,7 @@
         "name": "Israt Khanom Tushi",
         "email": "isratkhanomtushi@gmail.com",
         "img": "",
-        "address": "Chittagong University,Chittagong"
+        "address": "Chittagong University"
     },
     {
         "id": 6,
@@ -99,7 +99,7 @@
     },
     {
         "id": 15,
-        "name": "Ashiqul Karim Chowdury",
+        "name": "Ashiqul Karim ",
         "email": "ashiqulkarimchowdury@gmail.com",
         "img": "https://i.ibb.co/8xczJMh/323774129-847955526526252-7180338551088320665-n.jpg",
         "address": "Feni,Chittagong"
@@ -120,10 +120,10 @@
     },
     {
         "id": 18,
-        "name": "Ziauddin Mohammad Udhoy",
+        "name": "Z. M Udhoy",
         "email": "zmudhoy@gmail.com",
         "img": "https://i.ibb.co/CWmRkRR/70187218-1359866237514054-7246417496952012800-n.jpg",
-        "address": "Moymonshingha,Chittagong"
+        "address": "Moymonshingha."
     },
     {
         "id": 19,
