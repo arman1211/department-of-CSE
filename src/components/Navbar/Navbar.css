@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     padding: 1rem;
-    background-color: rgb(0, 79, 53);
+    background-color: var(--primary-color);
 }
 
 .nav-container a {

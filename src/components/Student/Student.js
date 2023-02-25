@@ -19,7 +19,7 @@ const Student = (props) => {
 
 
                 <div className="button-section">
-                    <button className='btn btn-success'>View Profile</button>
+                    <button className='btn '>View Profile</button>
                 </div>
 
 

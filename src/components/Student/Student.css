@@ -1,6 +1,8 @@
 .student-details {
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Roboto Slab', serif;
+    background-color: #fff;
+
     height: 250px;
     width: 500px;
     border: 1px solid #ccc;
@@ -39,7 +41,14 @@ p {
 
 .button-section button {
     margin-bottom: 5px;
+    background-color: var(--primary-color);
+    color: var(--third-color);
 
 
 
+}
+
+.button-section button:hover {
+    background-color: var(--third-color);
+    color: var(--primary-color);
 }
