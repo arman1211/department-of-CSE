@@ -10,6 +10,7 @@ const Navbar = () => {
             <Link to ="/syllebus">Syllebus</Link>
             <Link to ="/project">Projects</Link>
             <Link to ="/login">Login</Link>
+            <Link to ="/register">Register</Link>
         </nav>
     );
 };

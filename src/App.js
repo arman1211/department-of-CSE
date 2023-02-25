@@ -4,6 +4,7 @@ import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import Profile from './components/Profile/Profile';
 import Projects from './components/Projects/Projects';
+import Register from './components/Register/Register';
 import Syllebus from './components/Syllebus/Syllebus';
 import Main from './layout/Main';
 
